@@ -1,6 +1,7 @@
 alert("salom, hush kelibsiz");
 
 var yourAge = parseInt(prompt("yoshingizni kiriting!").trim());
+console.log('yoshingiz ' + yourAge);
 var paragraph = document.createElement("p");
 document.body.append(paragraph);
 
